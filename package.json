@@ -1,0 +1,36 @@
+{
+  "name": "@oresoftware/simple-queue",
+  "version": "1.0.104",
+  "description": "Semver-oriented TypeScript library skeleton.",
+  "main": "dist/simple-queue.js",
+  "bin": {
+    "example": "cli/example.sh"
+  },
+  "types": "dist/simple-queue.d.ts",
+  "typings": "dist/simple-queue.d.ts",
+  "scripts": {
+    "test": "suman test",
+    "postinstall": "./assets/postinstall.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ORESoftware/simple-queue.git"
+  },
+  "keywords": [
+    "typescript",
+    "library",
+    "skeleton",
+    "scaffold"
+  ],
+  "author": "TODO Yo.Mama",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/ORESoftware/simple-queue/issues"
+  },
+  "homepage": "https://github.com/ORESoftware/simple-queue#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/core-js": "^0.9.46",
+    "@types/node": "^9.6.2"
+  }
+}
